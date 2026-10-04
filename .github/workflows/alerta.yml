@@ -12,5 +12,5 @@ jobs:
     steps:
       - name: Enviar notificacion
         run: |
-          curl -d "Se hizo un push a la rama main - Hola Mundo" \
+          curl -d "Se hizo un push a la rama main - Hola Mundo | Jeremi Aquino 20251182" \
           https://ntfy.sh/devops-itla
